@@ -6,7 +6,7 @@ import HistoryIcon from "@spectrum-icons/workflow/History";
 import ChevronRightIcon from "@spectrum-icons/workflow/ChevronRight";
 import PauseIcon from "@spectrum-icons/workflow/Pause";
 import PlayIcon from "@spectrum-icons/workflow/Play";
-import { useCallback, useEffect, useReducer, useRef } from "react";
+import { useEffect, useReducer, useRef } from "react";
 
 function* algorithm(s: Array<string>): Generator<Snapshot, void, void> {
   for (let i = 1; i < s.length; i++) {
